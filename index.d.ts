@@ -2,7 +2,7 @@ declare module 'react-native-touch-id' {
     /**
      * The supported biometry type
      */
-    type BiometryType = 'FaceID' | 'TouchID' | 'Fingerprint';
+    type BiometryType = 'FaceID' | 'TouchID' | 'Fingerprint' | 'Passcode';
   
     /**
      * Base config to pass to `TouchID.isSupported` and `TouchID.authenticate`
